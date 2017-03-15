@@ -1,4 +1,4 @@
-FROM nodesource/jessie
+FROM nodesource/jessie:6.7.0
 
 MAINTAINER Ben Gibbons <axemann@gmail.com>
 
