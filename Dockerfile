@@ -29,7 +29,7 @@ RUN npm install -g homebridge --unsafe-perm
 USER root
 RUN mkdir -p /var/run/dbus
 
-ADD image/run.sh /root/run.sh
+#ADD image/run.sh /root/run.sh
 
 EXPOSE 5353 51826
 #CMD ["/root/run.sh"]
